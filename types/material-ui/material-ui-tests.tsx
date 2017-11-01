@@ -6780,6 +6780,10 @@ const TextFieldExampleSimple = () => (
         errorText="This field is required"
         required
     />
+    <TextField
+        minLength="5"
+        maxLength="10"
+    />
   </div>
 );
 
